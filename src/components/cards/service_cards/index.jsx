@@ -1,7 +1,7 @@
 import "./style.css";
 import React from "react";
 
-export default function Card({ cardTitle, cardImg, cardBody }) {
+export default function CardService({ cardTitle, cardImg, cardBody }) {
   return (
     <div className="s-card">
       <div className="s-card-content">

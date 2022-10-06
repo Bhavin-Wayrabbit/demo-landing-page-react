@@ -12,12 +12,12 @@
   align-items: center;
 }
 
-.services-heading {
+.services-heading,
+.article-heading {
   font-style: normal;
   font-weight: 700;
   font-size: 36px;
   line-height: 56px;
-  /* identical to box height, or 156% */
   color: #000000;
   mix-blend-mode: normal;
 }
@@ -31,4 +31,11 @@
   text-align: center;
   color: #7d7987;
   mix-blend-mode: normal;
+}
+
+.home-article {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 150px;
 }

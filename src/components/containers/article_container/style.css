@@ -1,0 +1,6 @@
+/* article card container */
+.article-card-container {
+  display: flex;
+  gap: 30px;
+  margin-bottom: 60px;
+}

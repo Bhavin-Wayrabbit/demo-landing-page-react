@@ -1,9 +1,9 @@
 import "./style.css";
 import React from "react";
-import Seprator from "../../components/seprator";
-import ButtonLabledTransparent from "../../components/button_transparent";
+import Seprator from "../../seprator";
+import ButtonLabledTransparent from "../../buttons/button_transparent";
 
-export default function LargeCard({ lcImage, lcTitle, lcDis }) {
+export default function CardLarge({ lcImage, lcTitle, lcDis }) {
   return (
     <div className="m-body-content-card">
       <div className="m-body-content-image">

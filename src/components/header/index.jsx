@@ -1,7 +1,7 @@
 import "./style.css";
 import heroImg from "../../assets/icons/hero.png";
 import React from "react";
-import ButtonLabled from "../button";
+import ButtonLabled from "../buttons/button_labled";
 
 export default function Header() {
   return (
