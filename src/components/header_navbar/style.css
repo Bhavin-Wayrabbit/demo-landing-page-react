@@ -10,6 +10,7 @@
   z-index: 999;
   height: 0.9%;
   border-radius: 20px;
+  box-shadow: 10px 40px 50px rgba(229, 233, 246, 0.4);
 }
 
 .header-menu-container {

@@ -1,0 +1,10 @@
+.main-body-content {
+  display: flex;
+  flex-direction: column;
+  margin-top: 220px;
+  gap: 150px;
+}
+
+div.main-body-content div:nth-child(even) {
+  flex-direction: row-reverse;
+}

@@ -1,0 +1,33 @@
+.m-body-content-card {
+  display: flex;
+  justify-content: space-between;
+  gap: 120px;
+}
+
+.m-body-content-image {
+  height: 453px;
+  width: 660px;
+}
+
+.m-body-content-b {
+  padding: 10px;
+}
+
+.m-body-content-b-title {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 56px;
+  color: #000000;
+  mix-blend-mode: normal;
+}
+
+.m-body-content-b-dis {
+  font-style: normal;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 30px;
+  color: #7d7987;
+  mix-blend-mode: normal;
+  margin-bottom: 30px;
+}

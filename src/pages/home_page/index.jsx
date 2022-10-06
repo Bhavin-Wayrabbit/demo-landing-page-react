@@ -4,10 +4,11 @@ import Header from "../../components/header";
 import CardContainer from "../../components/cards_container";
 import Seprator from "../../components/seprator";
 import ButtonLabledTransparent from "../../components/button_transparent";
+import MainBodyContainer from "../../components/main_body_container";
 
 export default function HomePage() {
   return (
-    <div className={"home-page"}>
+    <div className="home-page">
       <header>
         <Header />
       </header>
@@ -24,6 +25,7 @@ export default function HomePage() {
         <CardContainer />
         <ButtonLabledTransparent lable={"Learn more"} />
       </div>
+      <MainBodyContainer />
     </div>
   );
 }
