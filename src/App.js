@@ -4,6 +4,7 @@ import vectorDots from "./assets/vectors/vctr-dots.svg";
 import serviceBg from "./assets/vectors/service-bg.svg";
 import HomePage from "./pages/home_page";
 import HeaderNavbar from "./components/header_navbar";
+import Footer from "./components/footer";
 
 function App() {
   return (
@@ -19,6 +20,8 @@ function App() {
         <Routes>
           <Route exact path="/" element={<HomePage />} />
         </Routes>
+
+        <Footer />
       </div>
     </Router>
   );

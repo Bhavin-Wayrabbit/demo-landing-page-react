@@ -16,9 +16,7 @@ import ArticleData from "../../stubData/articleData";
 export default function HomePage() {
   return (
     <div className="home-page">
-      <header>
-        <Header />
-      </header>
+      <Header />
 
       <div className="services">
         <div className="services-heading">Our services</div>

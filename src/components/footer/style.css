@@ -1,0 +1,52 @@
+/* footer areas */
+.footer {
+  margin-top: 160px;
+  height: 6%;
+  background: linear-gradient(183.41deg, #67c3f3 -8.57%, #5a98f2 82.96%);
+  padding: 6.5rem;
+}
+
+.footer-cont {
+  display: flex;
+  gap: 100px;
+  align-items: center;
+}
+
+.fooret-info {
+  flex: 1;
+}
+
+.f-info-dis,
+.f-info-c-r {
+  margin-top: 15px;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 28px;
+  color: #ffffff;
+  mix-blend-mode: normal;
+}
+
+.footer-menu {
+  flex: 2;
+  display: flex;
+  justify-content: space-around;
+}
+
+.f-menu-title {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 60px;
+  color: #ffffff;
+  mix-blend-mode: normal;
+}
+
+.f-menu-items {
+  font-style: normal;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 38px;
+  color: #ffffff;
+  mix-blend-mode: normal;
+}
