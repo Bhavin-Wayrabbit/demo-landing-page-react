@@ -1,0 +1,22 @@
+.btn-trans {
+  cursor: pointer;
+  display: flex;
+  height: 56px;
+  width: 200px;
+  border-radius: 55px;
+  box-sizing: border-box;
+  border: 1.4px solid #458ff6;
+  justify-content: center;
+  align-items: center;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  color: #458ff6;
+  mix-blend-mode: normal;
+  background-color: transparent;
+}
+
+.btn-trans:hover {
+  border: 2.4px solid #2b61ad;
+  color: #2b61ad;
+}

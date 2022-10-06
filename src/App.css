@@ -1,0 +1,23 @@
+.App {
+  display: flex;
+  flex-direction: column;
+  background-color: #fff;
+  /* align-content: center; */
+  height: 366.875rem;
+  width: 100rem;
+}
+
+.link {
+  text-decoration: none;
+}
+
+.decor-vector-1 {
+  position: absolute;
+  top: 160px;
+}
+
+.decor-vector-2 {
+  position: absolute;
+  top: 960px;
+  z-index: 1;
+}

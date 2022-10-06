@@ -1,0 +1,39 @@
+.header {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+
+.header-body {
+  margin-top: 4rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.header-body-l {
+  flex: 1 1;
+}
+
+.header-body-heading {
+  margin-top: 9.563rem;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 56px;
+}
+
+.header-body-content {
+  margin-top: 1.563rem;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 21px;
+  line-height: 32px;
+  color: #7d7987;
+  margin-bottom: 2.813rem;
+}
+
+.header-body-r {
+  display: flex;
+  flex: 2 1;
+  justify-content: flex-end;
+}

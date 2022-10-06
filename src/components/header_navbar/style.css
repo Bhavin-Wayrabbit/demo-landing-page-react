@@ -1,0 +1,38 @@
+.header-navbar {
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem;
+  align-items: center;
+  position: sticky;
+  top: 0;
+  background-color: rgb(255, 255, 255);
+  margin: 0.5rem 5.5rem 0.5rem 5.5rem;
+  z-index: 999;
+  height: 0.9%;
+  border-radius: 20px;
+}
+
+.header-menu-container {
+  display: flex;
+}
+
+.header-menu-items {
+  margin-left: 2.5rem;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 23px;
+  color: #1f1534;
+  opacity: 0.5;
+}
+
+.header-menu-items:hover {
+  cursor: pointer;
+  /* font-weight: 500; */
+  opacity: 100;
+}
+
+.header-menu-items.active {
+  font-weight: 700;
+  opacity: 100;
+}

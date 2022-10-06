@@ -1,0 +1,34 @@
+.home-page {
+  display: flex;
+  flex-direction: column;
+  margin: 0.5rem 5.5rem 0.5rem 5.5rem;
+  z-index: 2;
+}
+
+.services {
+  margin-top: 192px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.services-heading {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 56px;
+  /* identical to box height, or 156% */
+  color: #000000;
+  mix-blend-mode: normal;
+}
+
+.services-content {
+  padding: 0rem 5rem;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 30px;
+  text-align: center;
+  color: #7d7987;
+  mix-blend-mode: normal;
+}

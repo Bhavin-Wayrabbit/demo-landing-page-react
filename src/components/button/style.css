@@ -1,0 +1,21 @@
+.header-body-btn {
+  cursor: pointer;
+  height: 3.5rem;
+  width: 12.5rem;
+  border: none;
+  border-radius: 3.438rem;
+  background-color: #458ff6;
+  color: #fff;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 1.125rem;
+}
+
+.header-body-btn:hover {
+  background-color: #145ec7;
+}
+
+.header-body-btn:active {
+  background-color: #153562;
+  box-shadow: 2px 2px 5px #fc894d;
+}
