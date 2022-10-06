@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/demo-landing-page-react/static/css/main.42991ae8.css",
+    "main.js": "/demo-landing-page-react/static/js/main.f2844e03.js",
+    "static/media/hero.png": "/demo-landing-page-react/static/media/hero.65a897ea211b581d45ab.png",
+    "static/media/vctr-dots.svg": "/demo-landing-page-react/static/media/vctr-dots.0d4e8ced606c31416121d6dd85a0f339.svg",
+    "static/media/icn_d_info.svg": "/demo-landing-page-react/static/media/icn_d_info.049338c07ed162816edcb5c5994c20dc.svg",
+    "static/media/icn_tracking.svg": "/demo-landing-page-react/static/media/icn_tracking.ccd4a6217c5b01ceebbb857b8686efed.svg",
+    "static/media/icn_ec_care.svg": "/demo-landing-page-react/static/media/icn_ec_care.ba14708c998d1c1102f470ba66d36de5.svg",
+    "static/media/icn_pharma.svg": "/demo-landing-page-react/static/media/icn_pharma.7f59ea9cb7101b7809744b86980ebf85.svg",
+    "static/media/icn_consult.svg": "/demo-landing-page-react/static/media/icn_consult.0c2ba99ef1b7be24933f953d48352cb2.svg",
+    "static/media/icn_search.svg": "/demo-landing-page-react/static/media/icn_search.e5974155ee04678c02278e09a9c3584d.svg",
+    "static/media/service-bg.svg": "/demo-landing-page-react/static/media/service-bg.9ae14a2be564f3b0fcc5f3d668ca0766.svg",
+    "index.html": "/demo-landing-page-react/index.html",
+    "main.42991ae8.css.map": "/demo-landing-page-react/static/css/main.42991ae8.css.map",
+    "main.f2844e03.js.map": "/demo-landing-page-react/static/js/main.f2844e03.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.42991ae8.css",
+    "static/js/main.f2844e03.js"
+  ]
+}
