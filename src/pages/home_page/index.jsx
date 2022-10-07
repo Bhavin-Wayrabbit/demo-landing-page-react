@@ -2,6 +2,7 @@ import "./style.css";
 import React from "react";
 import Header from "../../components/header";
 import Seprator from "../../components/seprator";
+import CustomerReviewSlider from "../../components/slider";
 
 import ButtonLabledTransparent from "../../components/buttons/button_transparent";
 
@@ -12,6 +13,8 @@ import ArticleContainer from "../../components/containers/article_container";
 import MainContentData from "../../stubData/mainBodyContainer";
 import SmallCardContainer from "../../stubData/smallCardContainer";
 import ArticleData from "../../stubData/articleData";
+
+import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
 
 export default function HomePage() {
   return (
@@ -33,6 +36,8 @@ export default function HomePage() {
       </div>
 
       <MainBodyContainer data={MainContentData} />
+
+      <CustomerReviewSlider />
 
       <div className="home-article">
         <div className="article-heading">Check out our latest article</div>

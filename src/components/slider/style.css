@@ -1,0 +1,154 @@
+.slider {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  margin-bottom: 30px;
+}
+
+.image {
+  width: 1000px;
+  height: 600px;
+  border-radius: 10px;
+}
+
+.right-arrow {
+  font-size: 3rem;
+  cursor: pointer;
+  user-select: none;
+  color: #67c3f3;
+}
+
+.left-arrow {
+  font-size: 3rem;
+  cursor: pointer;
+  user-select: none;
+  color: #67c3f3;
+}
+
+.slider-main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-left: 50px;
+  margin-right: 50px;
+  margin-top: 250px;
+}
+
+.slider-btns {
+  margin-top: 30px;
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+}
+
+.slide {
+  opacity: 0;
+  transition-duration: 2s;
+  transform: scale(0.8);
+}
+
+.slide.active {
+  opacity: 1;
+  transition-duration: 2s;
+  transform: scale(1);
+  width: 100%;
+}
+
+/* slider card */
+
+.slider-card {
+  display: flex;
+  flex-direction: column;
+  background: linear-gradient(208.18deg, #67c3f3 9.05%, #5a98f2 76.74%);
+  border-radius: 24px;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 50px;
+  width: 85%;
+}
+
+.slider-card,
+.slider-head {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.slider-head-title {
+  margin-top: 50px;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  color: #ffffff;
+  mix-blend-mode: normal;
+}
+
+.slider-body,
+.slider-body-l {
+  display: flex;
+}
+
+.slider-body {
+  justify-content: center;
+  gap: 90px;
+  padding: 0px 80px 0px 80px;
+}
+
+.slider-body-l {
+  flex-wrap: nowrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 30px;
+}
+
+.slider-b-l-img-con {
+  display: flex;
+  width: 155px;
+  height: 155px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  background: #ffffff;
+}
+
+.slider-pro-img {
+  width: 148px;
+  height: 148px;
+  border-radius: 50%;
+}
+
+.slider-b-l-pro-info-name {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 22px;
+  color: #ffffff;
+  mix-blend-mode: normal;
+}
+
+.slider-b-l-pro-info-role {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 48px;
+  color: rgba(255, 255, 255, 0.85);
+  mix-blend-mode: normal;
+}
+
+.slider-body-r {
+  width: "420px";
+  height: "120px";
+}
+
+.slider-b-r-quote {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 19px;
+  line-height: 30px;
+  color: rgba(255, 255, 255, 0.9);
+  mix-blend-mode: normal;
+  width: 420px;
+}
