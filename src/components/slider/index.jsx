@@ -2,52 +2,7 @@ import React, { useState, useEffect } from "react";
 import "./style.css";
 import Seprator from "../seprator";
 
-function imgGenrate() {
-  return (
-    "https://picsum.photos/" +
-    (200 + Math.floor(Math.random() * 90)) +
-    "/" +
-    (300 + Math.floor(Math.random() * 90)) +
-    "?random=1"
-  );
-}
-
-export default function CustomerReviewSlider({ slides }) {
-  const SliderData = [
-    {
-      id: 1,
-      name: "Edward Newgate",
-      title: "Founder Circle",
-      proImage: imgGenrate(),
-      quote:
-        "Our dedicated patient engagement app and web portal allow you to access information instantaneously (no tedeous form, long calls, or administrative hassle) and securely",
-    },
-    {
-      id: 2,
-      name: "Edward Newgate 2",
-      title: "Founder Circle",
-      proImage: imgGenrate(),
-      quote:
-        "Our dedicated patient engagement app and web portal allow you to access information instantaneously (no tedeous form, long calls, or administrative hassle) and securely",
-    },
-    {
-      id: 3,
-      name: "Edward Newgate 3",
-      title: "Founder Circle",
-      proImage: imgGenrate(),
-      quote:
-        "Our dedicated patient engagement app and web portal allow you to access information instantaneously (no tedeous form, long calls, or administrative hassle) and securely",
-    },
-    {
-      id: 4,
-      name: "Edward Newgate 4",
-      title: "Founder Circle",
-      proImage: imgGenrate(),
-      quote:
-        "Our dedicated patient engagement app and web portal allow you to access information instantaneously (no tedeous form, long calls, or administrative hassle) and securely",
-    },
-  ];
-
+export default function CustomerReviewSlider({ SliderData }) {
   const [current, setCurrent] = useState(0);
   const length = SliderData.length;
 
